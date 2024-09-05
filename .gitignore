@@ -1,0 +1,14 @@
+# Ignore database files
+*.sqlite3
+*.db
+
+# Ignore Django migration files
+*/migrations/*
+!*/migrations/__init__.py
+
+# Ignore Python cache files
+__pycache__/
+*.pyc
+*.pyo
+
+env/
